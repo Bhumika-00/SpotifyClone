@@ -24,9 +24,6 @@ This project is a **Spotify Clone UI** built using **HTML** and **CSS**. It repl
 ```
 |-- index.html
 |-- style.css
-|-- assets/
-    |-- images/
-    |-- icons/
 ```
 
 ## 🙌 Credits
