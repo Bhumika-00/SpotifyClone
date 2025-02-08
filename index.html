@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Spotify Clone - Web Player: Music for everyone</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+      integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- MAIN START -->
+    <div class="main">
+      <!-- SIDEBAR START -->
+      <div class="sidebar">
+        <!-- SIDEBAR HOME-SEARCH START -->
+        <div class="home-search">
+          <div class="home">
+            <img src="home.png" alt="home-icon" class="home-icon" />
+            <h5 class="home-text">Home</h5>
+          </div>
+          <div class="search">
+            <img
+              src="search.png"
+              alt="search-icon"
+              class="search-icon"
+            />
+            <h5 class="search-text">Search</h5>
+          </div>
+        </div>
+        <!-- SIDEBAR HOME-SEARCH END -->
+
+        <!-- SIDEBAR LIBRARY START -->
+        <div class="library">
+          <!--SIDEBAR LIBRARY HEAD START -->
+          <div class="library-head">
+            <div class="library-head-logo">
+              <div class="div1-library-icon">
+                <img
+                  src="library_icon.png"
+                  alt="library-icon"
+                  class="library-icon"
+                />
+                <h5 class="library-text">Your Library</h5>
+              </div>
+              <div class="div2-plus-icon">
+                <img src="plus.png" alt="plus-icon" class="plus-icon" />
+              </div>
+            </div>
+            <div class="library-head-tags">
+              <a href="#">Playlists</a>
+              <a href="#">Artists</a>
+              <a href="#">Podcasts & Shows</a>
+            </div>
+            <div class="library-head-search">
+              <div class="div1-search">
+                <img
+                  src="search.png"
+                  alt="search-icon"
+                  class="library-search-icon"
+                />
+              </div>
+              <div class="div2-recent">
+                <h6>Recents</h6>
+                <img src="down.png" alt="down-icon" class="down-icon" />
+              </div>
+            </div>
+          </div>
+          <!--SIDEBAR LIBRARY HEAD END -->
+
+          <!--SIDEBAR LIBRARY CARD BODY START -->
+          <div class="library-body">
+            <!-- CARD 1 START -->
+            <div class="library-card1">
+              <div class="img-con1">
+                <img src="heart-lg.png" />
+              </div>
+              <div class="card1-text">
+                <h5>Liked Songs</h5>
+                <h6>Playlist &bull; 6 songs</h6>
+              </div>
+              <img
+                src="speaker.png"
+                alt="speaker-icon"
+                class="speaker-icon"
+              />
+            </div>
+
+            <!-- CARD 2 START -->
+            <div class="library-cards library-card2">
+              <div class="img-con img-con2">
+                <img src="save-instagram.png" id="saved-icon" />
+              </div>
+              <div class="card-text">
+                <h5>Your Episodes</h5>
+                <h6>Saved & downloaded episodes</h6>
+              </div>
+            </div>
+
+            <!-- CARD 3 START -->
+            <div class="library-cards library-card3">
+              <div class="img-con img-con2">
+                <img src="https://wallpapercave.com/wp/wp7418493.jpg" />
+              </div>
+              <div class="card-text">
+                <h5>Taylor Swift</h5>
+                <h6>Artist</h6>
+              </div>
+            </div>
+
+            <!-- CARD 4 START -->
+            <div class="library-cards library-card4">
+              <div class="img-con img-con2">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.5ReRfdMew7Up6oeH18NEQAAAAA&pid=Api&P=0&h=180" />
+              </div>
+              <div class="card-text">
+                <h5>Ariana Grande</h5>
+                <h6>Artist</h6>
+              </div>
+            </div>
+
+            <!-- CARD 5 START -->
+            <div class="library-cards library-card5">
+              <div class="img-con img-con2">
+                <img src="https://wallpaperaccess.com/full/1280821.jpg" />
+              </div>
+              <div class="card-text">
+                <h5>Arijit Singh</h5>
+                <h6>Artist</h6>
+              </div>
+            </div>
+
+            <!-- CARD 6 START -->
+            <div class="library-cards library-card6">
+              <div class="img-con img-con2">
+                <img src="https://i.scdn.co/image/ab67616d0000b2739102daa2b3314a06fe4bf87b" />
+              </div>
+              <div class="card-text">
+                <h5>Anupam Roy</h5>
+                <h6>Artist</h6>
+              </div>
+            </div>
+
+            <!-- CARD 7 START -->
+            <div class="library-cards library-card7">
+              <div class="img-con img-con2">
+                <img src="https://i.pinimg.com/736x/63/17/67/631767bf0a5fc7a52805811fc5a8c1cd.jpg" />
+              </div>
+              <div class="card-text">
+                <h5>Shawn Mendes</h5>
+                <h6>Artist</h6>
+              </div>
+            </div>
+
+            <!-- CARD 8 START -->
+            <div class="library-cards library-card8">
+              <div class="img-con img-con2">
+                <img src="https://i.pinimg.com/originals/87/3a/7b/873a7b8d11c70ff3afab1095f34bdc9a.jpg" />
+              </div>
+              <div class="card-text">
+                <h5>Khalid</h5>
+                <h6>Artist</h6>
+              </div>
+            </div>
+
+            <!-- CARD 9 START -->
+            <div class="library-cards library-card9">
+              <div class="img-con img-con2">
+                <img src="https://tse1.mm.bing.net/th?id=OIP.wuYYh5K5ZjiPd5EB6eQcHQHaJQ&pid=Api&P=0&h=180" />
+              </div>
+              <div class="card-text">
+                <h5>Harry Styles</h5>
+                <h6>Artist</h6>
+              </div>
+            </div>
+
+            <!-- CARD 10 START -->
+            <div class="library-cards library-card10">
+              <div class="img-con img-con2">
+                <img src="https://wallpapercave.com/wp/wp7418493.jpg" />
+              </div>
+              <div class="card-text">
+                <h5>Taylor Swift</h5>
+                <h6>Artist</h6>
+              </div>
+            </div>
+
+            <!-- CARD 11 START -->
+            <div class="library-cards library-card10">
+              <div class="img-con img-con2">
+                <img src="https://wallpapers.com/images/hd/justin-bieber-believe-album-cover-h7c5dbqyg1dg4rxj.jpg" />
+              </div>
+              <div class="card-text">
+                <h5>Justin Bieber</h5>
+                <h6>Artist</h6>
+              </div>
+            </div>
+
+            <!-- CARD 12 START -->
+            <div class="library-cards library-card10">
+              <div class="img-con img-con2">
+                <img src="https://i.pinimg.com/736x/7f/ff/e0/7fffe0cc1840a36709657adc6884403b.jpg" />
+              </div>
+              <div class="card-text">
+                <h5>Weekend</h5>
+                <h6>Artist</h6>
+              </div>
+            </div>
+
+            <!-- CARD 13 START -->
+            <div class="library-cards library-card10">
+              <div class="img-con img-con2">
+                <img src="https://ilarge.lisimg.com/image/23320305/740full-isabel-rose.jpg" />
+              </div>
+              <div class="card-text">
+                <h5>Issabel Rose </h5>
+                <h6>Artist</h6>
+              </div>
+            </div>
+
+            <!-- CARD 14 START -->
+            <div class="library-cards library-card10">
+              <div class="img-con img-con2">
+                <img src="https://tse3.mm.bing.net/th?id=OIP._hWJfaRokoqDWuIwBOAkMAHaE6&pid=Api&P=0&h=180" />
+              </div>
+              <div class="card-text">
+                <h5>Bad Bunny</h5>
+                <h6>Artist</h6>
+              </div>
+            </div>
+
+            <!-- CARD 15 START -->
+            <div class="library-cards library-card10">
+              <div class="img-con img-con2">
+                <img src="https://i.iheart.com/v3/re/new_assets/654e8b5fcd54b13b3a33e00a" />
+              </div>
+              <div class="card-text">
+                <h5> The Kid LAROI</h5>
+                <h6>Artist</h6>
+              </div>
+            </div>
+            <!-- CARD 15 END -->
+          </div>
+          <!--SIDEBAR LIBRARY CARD BODY END -->
+        </div>
+        <!-- SIDEBAR LIBRARI END -->
+      </div>
+      <!-- SIDEBAR END -->
+
+      <!-- MAIN CONTENT START -->
+      <div class="main-content">
+        <div class="sticky-nav">
+          <div class="sticky-nav-icons">
+            <img src="backward_icon.png" />
+            <img src="forward_icon.png" />
+          </div>
+          <div class="sticky-nav-options">
+            <button class="badge">Explore Premium</button>
+            <button class="badge">Install Now</button>
+            <img src="user.png" />
+          </div>
+        </div>
+        <div class="main-cards">
+          <!-- MAIN ROW 1 START -->
+          <div class="rows">
+            <h2>Good evening</h2>
+            <!-- GRID CARDS START -->
+            <div class="grid-cards">
+              <!-- CARD 1 START -->
+              <div class="grid-card">
+                <div class="gcard-img">
+                  <img src="https://www.udiscovermusic.com/wp-content/uploads/2019/08/Taylor-Swift-Lover-album-cover-820.jpg" />
+                </div>
+                <div class="gcard-text">
+                  <h4>Taylor Swift</h4>
+                  <h5>Lover</h5>
+                </div>
+              </div>
+
+              <!-- CARD 2 START -->
+              <div class="grid-card">
+                <div class="gcard-img">
+                  <img src="https://images.genius.com/dbebcd2fd2a38cbf99c687c3e8363a94.300x300x1.jpg" />
+                </div>
+                <div class="gcard-text">
+                  <h4>Isabel Larosa</h4>
+                  <h5>I'm yours</h5>
+                </div>
+              </div>
+
+              <!-- CARD 3 START -->
+              <div class="grid-card">
+                <div class="gcard-img">
+                  <img src="https://upload.wikimedia.org/wikipedia/en/3/39/The_Weeknd_-_Starboy.png" />
+                </div>
+                <div class="gcard-text">
+                  <h4>Weekend</h4>
+                  <h5>StarBoy</h5>
+                </div>
+              </div>
+
+              <!-- CARD 4 START -->
+              <div class="grid-card">
+                <div class="gcard-img">
+                  <img src="https://e.snmc.io/i/600/w/f764f864624a2891d69d3809ecd2d5f8/8098260/hollywood-principle-starting-over-cover-art.jpg" />
+                </div>
+                <div class="gcard-text">
+                  <h4>Mike Ault</h4>
+                  <h5>Kayla Hope, Elliott Sencan</h5>
+                </div>
+              </div>
+
+              <!-- CARD 5 START -->
+              <div class="grid-card">
+                <div class="gcard-img">
+                  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOGrJTQhB0GBgUuIpMl-2FSzDLgxzXo5D1C43XIKtYCbBNxz76OcDuKzfq5CXYtIEIpIYg7xT061rAOTi7MCt3BS6DwC5UVZ0rdlPOf7cv-3riEV0pxhOb5w3zkWQ1sDLiVAC5EFI-2j0/s0/Demon+Slayer+Wallpaper.webp" />
+                </div>
+                <div class="gcard-text">
+                  <h4>Tanjiro No Uta</h4>
+                  <h5>Akano</h5>
+                </div>
+              </div>
+
+              <!-- CARD 6 START -->
+              <div class="grid-card">
+                <div class="gcard-img">
+                  <img src="https://images.thedirect.com/media/article_full/spid-blu-ray.jpg" />
+                </div>
+                <div class="gcard-text">
+                  <h4>SpiderMan</h4>
+                  <h5>No way to home</h5>
+                </div>
+              </div>
+              <!-- CARD 6 END -->
+            </div>
+            <!-- GRID CARDS END -->
+          </div>
+          <!-- MAIN ROW 1 END -->
+
+          <!-- MAIN ROW 2 START -->
+          <div class="rows">
+            <div class="links">
+              <a href="#" class="link1">Your Shows</a>
+              <a href="#" class="link2">Show all</a>
+            </div>
+            <div class="flex-cards">
+              <!-- CARD 1 -->
+              <div class="card">
+                <img src="https://upload.wikimedia.org/wikipedia/en/b/b4/Shape_Of_You_%28Official_Single_Cover%29_by_Ed_Sheeran.png" />
+                <h4>Shape of you</h4>
+                <h6>Ed Sheeran</h6>
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+
+              <!-- CARD 2 -->
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67616d0000b273a48964b5d9a3d6968ae3e0de" />
+                <h4>Fearless</h4>
+                <h6>Taylor Swift</h6>
+                <i class="bi bi-play-circle-fill"></i>
+              </div>
+
+              <!-- CARD 3 -->
+              <div class="card">
+                <img src="https://i.scdn.co/image/ab67616d0000b2734bc66095f8a70bc4e6593f4f" />
+                <h4>Levitating</h4>
+                <h6>Dua Lipa</h6>
+                <i class="bi bi-play-circle-fill"></i>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="card">
+              <img src="https://ichef.bbci.co.uk/ace/standard/976/cpsprodpb/FA13/production/_121091046_cover_no-text_10x10_rgb.jpg" />
+              <h4>Easy On Me</h4>
+              <h6>Adele</h6>
+              <i class="bi bi-play-circle-fill"></i>
+            </div>
+
+            <!-- CARD 5 -->
+            <div class="card">
+              <img src="https://i.ytimg.com/vi/VVYTzauIb_4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCGWUr4QRq1aVoBmntTzr6wHqFhOg" />
+              <h4>Dangerous Woman</h4>
+              <h6>Ariana Grande</h6>
+              <i class="bi bi-play-circle-fill"></i>
+            </div>
+          </div>
+        </div>
+        <!-- MAIN ROW 2 END -->
+
+        <!-- MAIN ROW 3 START -->
+        <div class="rows">
+          <div class="links">
+            <a href="#" class="link1">Recomended Artists</a>
+            <a href="#" class="link2">Show all</a>
+          </div>
+          <div class="flex-cards">
+            <!-- CARD 1 -->
+            <div class="card">
+              <img src="https://media.vanityfair.com/photos/5e98a63c4ff1a60008e27de1/master/pass/Ellie-Goulding-Quarantine-Diary-Tout.jpg" />
+              <h4>Ellie Goulding</h4>
+              <h6>
+                English singer and songwriter. Her career began when she met
+                record producers Starsmith and Frankmusik
+              </h6>
+              <i class="bi bi-play-circle-fill"></i>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="card">
+              <img src="https://rukminim2.flixcart.com/image/850/1000/xif0q/poster/b/x/w/small-atif-aslam-poster-71-atif-aslam-poster-multicolor-photo-original-imaghkg447kmhfhg.jpeg?q=90&crop=false" />
+              <h4>Atif Aslam</h4>
+              <h6>Pakistani musician, composer, and songwriter</h6>
+              <i class="bi bi-play-circle-fill"></i>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="card">
+              <img src="https://yt3.googleusercontent.com/y9xxG-UUgH0GnCVeF625aaAI8Fx8F9l0Ys7BR4YzYgOYHv2baNkFKGO1uUJoSgyFibFu0kkU=s900-c-k-c0x00ffffff-no-rj" />
+              <h4>
+                Indian music composer, record producer, singer, songwriter,
+                musician, multi-instrumentalist and philanthropist
+              </h4>
+              <h6>
+                Norwegian music producer and DJ, primarily known for his
+                single "Faded"
+              </h6>
+              <i class="bi bi-play-circle-fill"></i>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="card">
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3h05ZZJv1awscFezXwEkbGFvEMng81PnaRw&s" />
+              <h4>Darshan Raval</h4>
+              <h6>Indian singer, composer, and songwriter</h6>
+              <i class="bi bi-play-circle-fill"></i>
+            </div>
+
+            <!-- CARD 5 -->
+            <div class="card">
+              <img src="https://images.yourstory.com/cs/wordpress/2017/03/Untitled-design-32.jpg?mode=crop&crop=faces&ar=2%3A1&format=auto&w=1920&q=75" />
+              <h4>Allah Rakha Rahman</h4>
+              <h6>
+                Indian music composer, record producer, singer, songwriter,
+                musician, multi-instrumentalist and philanthropist
+              </h6>
+              <i class="bi bi-play-circle-fill"></i>
+            </div>
+          </div>
+        </div>
+        <!-- MAIN ROW 3 END -->
+
+        <!-- MAIN ROW 4 START -->
+        <div class="rows">
+          <div class="links">
+            <a href="#" class="link1">Trendings</a>
+            <a href="#" class="link2">Show all</a>
+          </div>
+          <div class="flex-cards">
+            <!-- CARD 1 -->
+            <div class="card">
+              <img src="https://www.shutterstock.com/editorial/image-editorial/M5T5M419NfzbA3y7ODY2ODg=/american-singer-songwriter-billie-eilish-pirate-baird-o'connell-440nw-13452316kg.jpg" />
+              <h4>Billie Eilish</h4>
+              <h6>Billie Eilish Pirate Baird O'Connell</h6>
+              <i class="bi bi-play-circle-fill"></i>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="card">
+              <img src="https://hips.hearstapps.com/hmg-prod/images/justin-bieber-attends-the-64th-annual-grammy-awards-at-mgm-news-photo-1724175564.jpg?crop=0.516xw:0.775xh;0.287xw,0&resize=640:*" />
+              <h4>Justin Bieber</h4>
+              <h6>Justin started his career with BPMG Records.</h6>
+              <i class="bi bi-play-circle-fill"></i>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="card">
+              <img src="https://i.ytimg.com/vi/E07s5ZYygMg/maxresdefault.jpg" />
+              <h4>Harry Styles</h4>
+              <h6>Watermelon Sugar</h6>
+              <i class="bi bi-play-circle-fill"></i>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="card">
+              <img src="https://cdn-images.dzcdn.net/images/artist/7f3c0956357c326b2db2cf436f1dc8c5/1900x1900-000000-80-0-0.jpg" />
+              <h4>Bruno Mars</h4>
+              <h6>Popularly referred to like Bruno Mars, Peter Gene Hernandez</h6>
+              <i class="bi bi-play-circle-fill"></i>
+            </div>
+
+            <!-- CARD 5 -->
+            <div class="card">
+              <img src="https://i.ytimg.com/vi/fHI8X4OXluQ/maxresdefault.jpg" />
+              <h4>The Weeknd</h4>
+              <h6>The most popular artist.</h6>
+              <i class="bi bi-play-circle-fill"></i>
+            </div>
+          </div>
+        </div>
+        <!-- MAIN ROW 4 END -->
+
+        <!-- MAIN ROW 5 START -->
+        <div class="rows">
+          <div class="links">
+            <a href="#" class="link1">Lorem, ipsum.</a>
+            <a href="#" class="link2">Show all</a>
+          </div>
+          <div class="flex-cards">
+            <!-- CARD 1 -->
+            <div class="card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Sam_Smith_Lollapalooza_2015-9_%28cropped%29.jpg" />
+              <h4>Sam Smith</h4>
+              <h6>The most popular artist.</h6>
+              <i class="bi bi-play-circle-fill"></i>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="card">
+              <img src="https://images.javatpoint.com/top10-technologies/images/top-10-spotify-artists7.png" />
+              <h4>Drake</h4>
+              <h6>The most popular artist.</h6>
+              <i class="bi bi-play-circle-fill"></i>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="card">
+              <img src="https://images.javatpoint.com/top10-technologies/images/top-10-spotify-artists8.png" />
+              <h4>Rihanna</h4>
+              <h6>The most popular artist.</h6>
+              <i class="bi bi-play-circle-fill"></i>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/4/4f/2023-11-16_Gala_de_los_Latin_Grammy%2C_22_%28David_Guetta%29.jpg" />
+              <h4>David Guetta</h4>
+              <h6>The most popular artist.</h6>
+              <i class="bi bi-play-circle-fill"></i>
+            </div>
+
+            <!-- CARD 5 -->
+            <div class="card">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg/1200px-HarryStylesWembley170623_%2865_of_93%29_%2852982678051%29_%28cropped_2%29.jpg" />
+              <h4>Harry Styles</h4>
+              <h6>The most popular artist.</h6>
+              <i class="bi bi-play-circle-fill"></i>
+            </div>
+          </div>
+        </div>
+        <!-- MAIN ROW 5 END -->
+      </div>
+      <div class="footer">
+        <div class="footer-up">
+          <div class="div1">
+            <h5>Company</h5>
+            <p>About</p>
+            <p>Jobs</p>
+            <p>For the Record</p>
+          </div>
+          <div class="div2">
+            <h5>Communities</h5>
+            <p>For Artists</p>
+            <p>Developers</p>
+            <p>Advertising</p>
+            <p>Investors</p>
+            <p>Vendors</p>
+            <p>Spotify for Work</p>
+          </div>
+          <div class="div3">
+            <h5>Useful links</h5>
+            <p>Support</p>
+            <p>Free Mobile App</p>
+          </div>
+          <div class="div4">
+            <div class="social-icon">
+              <i class="bi bi-instagram"></i>
+            </div>
+            <div class="social-icon">
+              <i class="bi bi-twitter"></i>
+            </div>
+            <div class="social-icon">
+              <i class="bi bi-facebook"></i>
+            </div>
+          </div>
+        </div>
+        <hr class="footer-divider">
+        <div class="footer-down">
+          <div>
+            <p>Legal</p>
+            <p>Privacy Center</p>
+            <p>Privacy Policy</p>
+            <p>Cookies</p>
+            <p>About Ads</p>
+            <p>Accessibility</p>
+          </div>
+          <p>&COPY; 2023 Spotify AB</p>
+        </div>
+      </div>
+    </div>
+    <!-- MAIN CONTENT END -->
+
+    <!-- MUSIC PLAYER START -->
+    <div class="music-player">
+      <!-- MUSIC PLAYER DIV1 START -->
+      <div class="music-player-div1">
+        <img
+          src="album_picture.jpeg"
+          alt="album-img"
+          class="album-img"
+        />
+        <div>
+          <h5 class="music-player-text">Daylight</h5>
+          <h6 class="music-player-text">David Kushner</h6>
+        </div>
+        <img
+          src="album_icon1.png"
+          alt="love-icon"
+          class="love-icon"
+        />
+        <img
+          src="album_icon2.png"
+          alt="picINpic-icon"
+          class="picINpic-icon"
+        />
+      </div>
+      <!-- MUSIC PLAYER DIV1 END -->
+
+      <!-- MUSIC PLAYER DIV2 START -->
+      <div class="music-player-div2">
+        <div class="song-controls">
+          <img src="player_icon1.png" />
+          <img src="player_icon2.png" />
+          <img src="player_icon3.png" class="pause" />
+          <img src="player_icon4.png" />
+          <img src="player_icon5.png" />
+        </div>
+        <div class="song-progress">
+          <p>2:00</p>
+          <div><span></span></div>
+          <p>3:54</p>
+        </div>
+      </div>
+      <!-- MUSIC PLAYER DIV2 END -->
+
+      <!-- MUSIC PLAYER DIV3 START -->
+      <div class="music-player-div3">
+        <img
+          src="controls_icon1.png"
+          class="control-icons"
+        />
+        <img
+          src="controls_icon2.png"
+          class="control-icons"
+        />
+        <img
+          src="controls_icon3.png"
+          class="control-icons"
+        />
+        <img
+          src="controls_icon4.png"
+          class="control-icons"
+        />
+        <div class="volumn-bar"></div>
+      </div>
+      <!-- MUSIC PLAYER DIV3 END -->
+    </div>
+    <!-- MUSIC PLAYER END -->
+  </div>
+  <!-- MAIN END -->
+</body>
+</html>
